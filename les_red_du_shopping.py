@@ -16,12 +16,8 @@ def affiche_photo(increment):
 
 
 def change_photo(incr):
-    if incr == 1:
-        return 2
-    elif incr == 2:
-        return 3
-    elif incr == 3:
-        return 4
+    if incr > 0 and incr < 4:
+        return incr + 1
     else:
         return 1
 
